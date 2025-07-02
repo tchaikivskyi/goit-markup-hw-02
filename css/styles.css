@@ -39,19 +39,24 @@ h1 {
 h2,
 h3 {
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
   text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.section-title {
+  line-height: 1.11111;
 }
 
 .font-raleway {
@@ -79,19 +84,29 @@ body {
   color: var(--iris);
 }
 
-.logo-dark span {
-  color: var(--navy-blue);
-}
-
-.list-navigation li a {
+.nav-link {
   font-weight: 500;
   color: var(--navy-blue);
 }
 
-.list-navigation li a:hover,
-address a:hover {
+.logo-dark span {
+  color: var(--navy-blue);
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus {
   color: var(--ocean);
 }
+
 
 /* ------------------ */
 /* Hero */
@@ -117,6 +132,7 @@ address a:hover {
   color: var(--white);
   background: var(--iris);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -127,8 +143,16 @@ address a:hover {
 /* ------------------ */
 /* Contacts */
 /* ------------------ */
-.list-teams {
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-list {
   text-align: center;
+}
+
+.team-item {
+  background: var(--white);
 }
 
 /* ------------------ */
