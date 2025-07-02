@@ -1,0 +1,122 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+h2,
+h3 {
+  color: var(--navy-blue);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11111;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ------------------ */
+/* Header */
+/* ------------------ */
+.logo {
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo span {
+  color: var(--navy-blue);
+}
+
+.list-navigation li a {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+/* ------------------ */
+/* Hero */
+/* ------------------ */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero button {
+  color: var(--white);
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+}
+
+/* ------------------ */
+/* Contacts */
+/* ------------------ */
+.list-teams {
+  text-align: center;
+}
+
+/* ------------------ */
+/* Footer */
+/* ------------------ */
+footer {
+  background-color: var(--navy-blue);
+}
+
+footer .logo span,
+footer p {
+  color: var(--cloud);
+}
