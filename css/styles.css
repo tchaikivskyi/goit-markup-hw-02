@@ -96,20 +96,31 @@ address a:hover {
 /* ------------------ */
 /* Hero */
 /* ------------------ */
-.hero {
+.hero-section {
   background-color: var(--navy-blue);
+  text-align: center;
 }
 
-.hero button {
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--white);
+}
+
+.hero-button {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: var(--white);
   background: var(--iris);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background: var(--ocean);
 }
 
