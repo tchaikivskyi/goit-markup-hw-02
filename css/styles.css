@@ -30,7 +30,7 @@ address {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -73,19 +73,24 @@ body {
 /* ------------------ */
 .logo {
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
 }
 
-.logo span {
+.logo-dark span {
   color: var(--navy-blue);
 }
 
 .list-navigation li a {
   font-weight: 500;
   color: var(--navy-blue);
+}
+
+.list-navigation li a:hover,
+address a:hover {
+  color: var(--ocean);
 }
 
 /* ------------------ */
@@ -97,9 +102,15 @@ body {
 
 .hero button {
   color: var(--white);
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+}
+
+.hero button:hover {
+  background: var(--ocean);
 }
 
 /* ------------------ */
@@ -116,7 +127,7 @@ footer {
   background-color: var(--navy-blue);
 }
 
-footer .logo span,
+.logo-white span,
 footer p {
   color: var(--cloud);
 }
